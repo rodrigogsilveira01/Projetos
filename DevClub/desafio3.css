@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    color: #17233D;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.875px;
+    width: 83px;
+    margin: 21px 14px;
+}
+
+.button-header {
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    margin: 21px 14px;
+    cursor: pointer;
+}
+
+.img-logo {
+    margin: 163px 0 0 123px;
+    display: inline-block;
+    bottom: 20px
+
+}
+
+.button-learnmore {
+color: #6FBF44;
+font-size: 18px;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 1px;
+background: transparent;
+border: none;
+cursor: pointer;
+}
+
+h1 {
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.596px;
+    width: 493px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+
+}   
+
+p {
+    width: 493px;
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+    margin-right: 89px;
+
+}
+
+section {
+    display: inline-block;
+    margin-left: 85px;
+   
+}
+
+main {
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 700px) {
+
+.header {
+        display: none;
+    }
+    
+
+main {
+    margin-bottom: 80px;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 100% */
+    letter-spacing: 0.596px;
+    width: 280px;
+}
+
+p {
+    width: 304px;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 183.333% */
+    letter-spacing: 0.5px;
+}
+
+.img-logo {
+    margin: 0;
+    display: block;
+    width: 312;
+    height: 288px;
+    flex-shrink: 0;
+    position: absolute;
+    margin: 25px 25px;
+}
+
+section {
+    display: block;
+    margin: -50px 25px 0 25px;
+}
+
+.button-learnmore {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    margin-left: 93px;
+}
+
+.button-header {
+    margin-left: 225px;
+}
+
+}
